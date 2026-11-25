@@ -1,4 +1,3 @@
-
 # Virtual environments
 .venv/
 venv/
@@ -8,34 +7,27 @@ env/
 __pycache__/
 *.py[cod]
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
 # Jupyter Notebook
 .ipynb_checkpoints/
 
-# Experiment output directories
-cifar100_lt_simple_runs/
-cifar100_lt_diffusion_runs/
-cifar100_lt_diffusion_holdout_runs/
-cifar100_lt_five_experiments_runs/
-
-# Model weights and checkpoints
-*.pt
-*.pth
-*.ckpt
-*.safetensors
-*.onnx
-*.joblib
-*.pkl
-
-# NumPy arrays and cached predictions
-*.npy
-*.npz
-
-# Datasets and generated images
+# Downloaded datasets
 dataset/
 datasets/
 data/
-generated/
+
+# Temporary training artifacts
+**/checkpoints/
+**/cache/
+**/temp/
+**/tmp/
+
+# TensorBoard and experiment tracking
+wandb/
+**/tensorboard/
+events.out.tfevents.*
 
 # Kaggle credentials and cache
 kaggle.json

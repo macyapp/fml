@@ -1,0 +1,22 @@
+{
+  "experiment_version": "conditional_ddpm_v1",
+  "dataset_hash": "6437ace939b7c470c823364a1272fea04918d84b27ed75fb1b6d5ac7622bc150",
+  "dataset_folder": "/home/sidhant/.cache/kagglehub/competitions/cifar100-image-classification-with-long-tail/dataset",
+  "seed": 42,
+  "validation_size": 0.2,
+  "final_epochs": 15,
+  "batch_size": 128,
+  "learning_rates": {
+    "resnet18": 0.0005
+  },
+  "diffusion_epochs": 100,
+  "diffusion_batch_size": 64,
+  "diffusion_lr": 0.0002,
+  "width": 48,
+  "timesteps": 1000,
+  "ema_decay": 0.999,
+  "balanced_diffusion": true,
+  "images_per_class": 200,
+  "sample_steps": 50,
+  "sample_batch_size": 32
+}
