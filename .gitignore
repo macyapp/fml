@@ -50,3 +50,10 @@ kaggle.json
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# Ignore experiment outputs except checkpoints
+/cifar100_lt_five_experiments_runs/*
+
+# Allow trained model checkpoints
+!/cifar100_lt_five_experiments_runs/checkpoints/
+!/cifar100_lt_five_experiments_runs/checkpoints/**
