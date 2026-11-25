@@ -1,0 +1,60 @@
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Experiment output directories
+cifar100_lt_simple_runs/
+cifar100_lt_diffusion_runs/
+cifar100_lt_diffusion_holdout_runs/
+cifar100_lt_five_experiments_runs/
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.joblib
+*.pkl
+
+# NumPy arrays and cached predictions
+*.npy
+*.npz
+
+# Datasets and generated images
+dataset/
+datasets/
+data/
+generated/
+
+# Kaggle credentials and cache
+kaggle.json
+.kaggle/
+.cache/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# Temporary files and logs
+*.tmp
+*.log
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
