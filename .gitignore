@@ -51,9 +51,14 @@ kaggle.json
 .DS_Store
 Thumbs.db
 
-# Ignore experiment outputs except checkpoints
+# Ignore experiment outputs
 /cifar100_lt_five_experiments_runs/*
+/cifar100_lt_diffusion_runs/*
 
-# Allow trained model checkpoints
+# Allow five-experiment checkpoints
 !/cifar100_lt_five_experiments_runs/checkpoints/
 !/cifar100_lt_five_experiments_runs/checkpoints/**
+
+# Allow diffusion experiment checkpoints
+!/cifar100_lt_diffusion_runs/checkpoints/
+!/cifar100_lt_diffusion_runs/checkpoints/**

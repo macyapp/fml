@@ -8,3 +8,4 @@
 *.npy filter=lfs diff=lfs merge=lfs -text
 *.npz filter=lfs diff=lfs merge=lfs -text
 cifar100_lt_five_experiments_runs/checkpoints/** filter=lfs diff=lfs merge=lfs -text
+cifar100_lt_diffusion_runs/checkpoints/** filter=lfs diff=lfs merge=lfs -text
